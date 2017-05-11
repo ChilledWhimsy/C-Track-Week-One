@@ -11,7 +11,7 @@ namespace code
 
             int Area = Area(length, width);
 
-            Console.Writeline("The area is: " + Area);
+            Console.WriteLine("The area is: " + Area);
 
         }
         static int Area(int length, int width) 
