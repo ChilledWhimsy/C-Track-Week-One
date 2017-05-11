@@ -20,15 +20,15 @@ namespace code
                     Output = i * j;
                     if (Output > 99)
                     {
-                       Console.Writeline(" " + Output); 
+                       Console.WriteLine(" " + Output); 
                     }
                     else if (Output > 9)
                     {
-                        Console.Writeline("  " + Output);
+                        Console.WriteLine("  " + Output);
                     }
                     else
                     {
-                        Console.Writeline("   " + Output);
+                        Console.WriteLine("   " + Output);
                     }
                 }
             }
